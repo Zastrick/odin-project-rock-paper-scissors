@@ -1,0 +1,65 @@
+/* Estilos básicos para el cuerpo y el título */
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    background-color: #f0f0f0;
+    padding: 20px;
+}
+
+h1 {
+    font-size: 36px;
+    color: #333;
+}
+
+/* Estilos para los botones */
+.button-container {
+    margin: 20px;
+}
+
+button {
+    font-size: 20px;
+    padding: 10px 20px;
+    margin: 10px;
+    cursor: pointer;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #45a049;
+}
+
+/* Estilos para los resultados y puntajes */
+#result {
+    margin-top: 20px;
+    font-size: 18px;
+    color: #333;
+}
+
+#score {
+    font-size: 20px;
+    margin-top: 20px;
+    color: #333;
+}
+
+/* Estilo para deshabilitar los botones cuando se termina el juego */
+button:disabled {
+    background-color: #ccc;
+    cursor: not-allowed;
+}
+
+
+#score {
+    font-size: 20px;
+    margin-top: 20px;
+    color: #333;
+}
+
+/* Estilo para deshabilitar los botones cuando se termina el juego */
+button:disabled {
+    background-color: #ccc;
+    cursor: not-allowed;
+}
